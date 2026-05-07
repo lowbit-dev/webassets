@@ -14,7 +14,6 @@ import (
 	"github.com/tdewolff/minify/v2"
 	"github.com/tdewolff/minify/v2/css"
 	"github.com/tdewolff/minify/v2/js"
-	"golang.org/x/sync/singleflight"
 )
 
 // TODO(compression): extend cacheEntry to store pre-compressed variants alongside the raw
@@ -70,7 +69,7 @@ type Handler struct {
 	bundleCache map[string]cacheEntry
 	minifier    *minify.M
 	fileServer  http.Handler
-	sf          singleflight.Group
+	sf          sfGroup
 	errLogger   func(error)
 }
 

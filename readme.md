@@ -14,7 +14,7 @@ A fast, flexible Go package for serving static web assets with in-memory caching
 ## Installation
 
 ```
-go get github.com/cornejong/webassets
+go get lowbit.dev/webassets
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ go get github.com/cornejong/webassets
 ```go
 import (
     "net/http"
-    "github.com/cornejong/webassets"
+    "lowbit.dev/webassets"
 )
 
 func main() {
