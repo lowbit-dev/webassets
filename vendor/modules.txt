@@ -1,3 +1,7 @@
+# github.com/andybalholm/brotli v1.2.7
+## explicit; go 1.22
+github.com/andybalholm/brotli
+github.com/andybalholm/brotli/matchfinder
 # github.com/tdewolff/minify/v2 v2.24.13
 ## explicit; go 1.25.0
 github.com/tdewolff/minify/v2
